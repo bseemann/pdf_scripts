@@ -1,6 +1,9 @@
 # Ferramentas
 Ferramentas genéricas para analisar conjuntos de PDFs acadêmicos.
-1) **pdf_highlights_extractor.ipynb**: Permite a extração de destaques e comentários em arquivos PDFs encontrados numa pasta do Google Drive. Esses arquivos podem estar aninhados, ou seja, em subpastas da pasta do Google Drive informada. 
+1) **pdf_highlights_extractor.ipynb**: Permite a extração de destaques e comentários em arquivos PDFs encontrados numa pasta do Google Drive. 
+2) **pdf_count_prefixes.ipynb**: Permite identificar a quantidade de ocorrências  prefixos ou palavras nos arquivos PDFs encontrados numa pasta do Google Drive.
+
+Todas as ferramentas analisam os arquivos em uma pasta do Google Drive de maneira aninhada, ou seja, buscam recursivamente os arquivos encontrados nas subpastas existentes da pasta do Google Drive informada. A pasta pode estar num Drive Compartilhado ou ser dentro do Drive pessoal - o importante é que o e-mail da conta Google que executa a ferramenta tenha _permissão como Editor_ na pasta informada. 
 
 # Como utilizar
 Basta baixar o arquivo do código desejado, ir em [https://colab.research.google.com/](https://colab.research.google.com/) com sua conta Google, clicar em "Upload" e importar o arquivo .ipynb baixado.
